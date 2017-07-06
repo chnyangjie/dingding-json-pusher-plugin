@@ -29,7 +29,14 @@
 
     <name>Dingding JSON Pusher Plugin</name>
     <description>Allow users to push complex message stored in JSON file to mutiple Dingding groups. </description>
-
+    <url>https://wiki.jenkins.io/display/JENKINS/Dingding+Json+Pusher+Plugin</url>
+    <developers>
+        <developer>
+            <id>huijian_zinow</id>
+            <name>Huijian Zintow</name>
+            <email>tanhuijian@zintow.com</email>
+        </developer>
+    </developers>
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
