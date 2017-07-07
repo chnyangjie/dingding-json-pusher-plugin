@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.zintow</groupId>
     <artifactId>dingding-json-pusher</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>hpi</packaging>
 
     <properties>
@@ -74,5 +74,6 @@
         <connection>scm:git:ssh://git@github.com/jenkinsci/dingding-json-pusher-plugin.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/jenkinsci/dingding-json-pusher-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/dingding-json-pusher-plugin</url>
-    </scm>
+      <tag>dingding-json-pusher-1.0</tag>
+  </scm>
 </project>
