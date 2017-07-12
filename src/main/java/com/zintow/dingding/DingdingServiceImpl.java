@@ -59,7 +59,7 @@ public class DingdingServiceImpl implements DingdingService {
         HttpClient client = getHttpClient();
         PostMethod post = new PostMethod(apiUrl + accesstoken);
         try {
-        	JSONObject body = readJson();//readJsonFilePathWay(); read file with utf-8 encoding.
+        	JSONObject body = readJsonFilePathWay();//readJsonFilePathWay(); read file with utf-8 encoding.
         	//writeJson(body.toJSONString());
         	//body = readJsonFilePathWay();
         	if(body != null){        		
